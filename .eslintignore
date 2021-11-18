@@ -1,0 +1,16 @@
+coverage
+build
+assets
+node_modules
+stats.json
+
+# Cruft
+.DS_Store
+npm-debug.log
+*.npm-debug.log.TBD
+*.npm-debug.log.TMP
+.idea
+
+# lock files
+*.lock
+package-lock.json
