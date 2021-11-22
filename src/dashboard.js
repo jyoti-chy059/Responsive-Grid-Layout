@@ -10,9 +10,9 @@ import './index.css'
 
 const Dashboard = () => {
 	return (
-		<div class="container">
-			<div class="box">
-				<div class="content">
+		<div className="container">
+			<div className="box">
+				<div className="content">
 					<div className="imageContainer">
 						<img src={washingHand} alt="1.png" />
 					</div>
@@ -23,8 +23,8 @@ const Dashboard = () => {
 					</p>
 				</div>
 			</div>
-			<div class="box">
-				<div class="content">
+			<div className="box">
+				<div className="content">
 					<div className="imageContainer">
 						<img src={cold} alt="1.png" />
 					</div>
@@ -35,16 +35,16 @@ const Dashboard = () => {
 					</p>
 				</div>
 			</div>
-			<div class="box">
-				<div class="content">
+			<div className="box">
+				<div className="content">
 					<div className="imageContainer">
 						<img src={flight} alt="1.png" />
 					</div>
 					<p>{'Avoid trave if you have fever and cough.'}</p>
 				</div>
 			</div>
-			<div class="box">
-				<div class="content">
+			<div className="box">
+				<div className="content">
 					<div className="imageContainer">
 						<img src={firstAidKit} alt="1.png" />
 					</div>
@@ -55,8 +55,8 @@ const Dashboard = () => {
 					</p>
 				</div>
 			</div>
-			<div class="box">
-				<div class="content">
+			<div className="box">
+				<div className="content">
 					<div className="imageContainer">
 						<img src={mask} alt="1.png" />
 					</div>
@@ -67,16 +67,16 @@ const Dashboard = () => {
 					</p>
 				</div>
 			</div>
-			<div class="box">
-				<div class="content">
+			<div className="box">
+				<div className="content">
 					<div className="imageContainer">
 						<img src={cooking} alt="1.png" />
 					</div>
 					<p>{'Eat only well-cooked food.'}</p>
 				</div>
 			</div>
-			<div class="box">
-				<div class="content">
+			<div className="box">
+				<div className="content">
 					<div className="imageContainer">
 						<img src={fever} alt="1.png" />
 					</div>

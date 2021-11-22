@@ -2,7 +2,6 @@
 	"extends": [
 		"eslint:recommended",
 		"plugin:react/recommended",
-		"plugin:prettier/recommended",
 		"plugin:react-hooks/recommended"
 	],
 	"parser": "babel-eslint",
@@ -20,30 +19,7 @@
 		}
 	},
 	"rules": {
-		"react-hooks/exhaustive-deps": "error",
-		"padding-line-between-statements": [
-			"error",
-			{
-				"blankLine": "always",
-				"prev": "import",
-				"next": "*"
-			},
-			{
-				"blankLine": "never",
-				"prev": "import",
-				"next": "import"
-			},
-			{
-				"blankLine": "always",
-				"prev": "*",
-				"next": "export"
-			},
-			{
-				"blankLine": "any",
-				"prev": "export",
-				"next": "export"
-			}
-		]
+		"react-hooks/exhaustive-deps": "error"
 	},
 	"env": {
 		"browser": true,
