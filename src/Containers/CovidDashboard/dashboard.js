@@ -6,7 +6,7 @@ import firstAidKit from './icons/first-aid-kit.png'
 import flight from './icons/flight.png'
 import mask from './icons/medical-mask.png'
 import washingHand from './icons/washing-hand.png'
-import './index.css'
+import './dashboard.css'
 
 const Dashboard = () => {
 	return (

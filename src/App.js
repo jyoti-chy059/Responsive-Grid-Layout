@@ -1,10 +1,11 @@
 import React from 'react'
-import Dashboard from './dashboard'
+import EDashboard from './Containers/EcommerceDashboard'
 
 function App() {
 	return (
 		<div className="App">
-			<Dashboard />
+			{/* <Dashboard /> */}
+			<EDashboard />
 		</div>
 	)
 }

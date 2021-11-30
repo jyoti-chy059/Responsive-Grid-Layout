@@ -72,3 +72,4 @@ es6dist
 *.sln
 *.sw?
 .history
+.DS_store
