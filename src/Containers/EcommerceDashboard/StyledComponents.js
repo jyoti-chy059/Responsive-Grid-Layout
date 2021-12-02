@@ -60,12 +60,27 @@ export const CustomerReviewContainer = styled.div`
 `
 export const GoalContainer = styled.div`
 	grid-area: goal;
-	background-color: #ffa08c;
+	background-color: #ffffff;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+	border-radius: 1rem;
+	padding: 2rem;
+	min-height: 400px;
 `
 
-export const OrderStatus = styled.div`
+export const OrderStatusContainer = styled.div`
+	min-height: 400px;
 	grid-area: orderStatus;
-	background-color: #ffff64;
+	background-color: #ffffff;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+	border-radius: 1rem;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+`
+export const SubTitle = styled.span`
+	font-size: 10px;
+	margin-top: 0.5rem;
 `
 
 export const TopSeller = styled.div`
@@ -81,4 +96,9 @@ export const PerformanceContainer = styled.div`
 export const TaskContainer = styled.div`
 	grid-area: task;
 	background-color: #395fe6;
+`
+export const OrderStatusHeader = styled.div`
+	display: flex;
+	justify-content: space-between;
+	flex: 1 1 10;
 `

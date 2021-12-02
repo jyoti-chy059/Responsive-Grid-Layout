@@ -1,8 +1,7 @@
 import React from 'react'
-import { Review, Header, Refresh, Rating, RatingNumber, Text, Filter, Button } from './styledComponents'
-import RefreshIcon from '../../icons/refresh_icon.png'
+import { Review, Header, Rating, RatingNumber, Text, Filter, Button } from './styledComponents'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStar, faStarHalf, faFilter, faAngleDown } from '@fortawesome/free-solid-svg-icons'
+import { faStar, faStarHalf, faFilter, faAngleDown, faSync } from '@fortawesome/free-solid-svg-icons'
 import ReviewBar from '../../Components/Review/index'
 
 const CustomerReview = () => {
@@ -10,7 +9,8 @@ const CustomerReview = () => {
 		<Review>
 			<Header>
 				<h1>{'Customer Review'}</h1>
-				<Refresh src={RefreshIcon} alt="refreshicon" />
+				{/* <Refresh src={RefreshIcon} alt="refreshicon" /> */}
+				<FontAwesomeIcon icon={faSync} style={{ color: '#07c278' }}></FontAwesomeIcon>
 			</Header>
 			<Rating>
 				<FontAwesomeIcon icon={faStar} style={{ color: '#fdc531', marginRight: '0.5rem' }}></FontAwesomeIcon>

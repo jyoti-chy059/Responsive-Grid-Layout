@@ -11,9 +11,7 @@ export const Header = styled.div`
 	justify-content: space-between;
 	width: 100%;
 `
-export const Refresh = styled.img`
-	width: 5%;
-`
+
 export const Rating = styled.div`
 	display: flex;
 	flex-direction: row;
